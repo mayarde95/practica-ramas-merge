@@ -12,7 +12,7 @@ function agregarALaPantalla(value) {
     document.getElementById('pantalla').value = '';
   }
 
-  function borrarUltimoCaracter(){
+  function borrarUltimoCaracter2(){
     const valorPantalla = document.getElementById('pantalla').value;
     const resultado = valorPantalla.substring(0,valorPantalla.length -1);
     document.getElementById('pantalla').value = resultado;
